@@ -6,11 +6,6 @@ module.exports = withMT({
   content: ["./src/**/*.{js,jsx,ts,tsx}","node_modules/flowbite-react/lib/esm/**/*.js", "./node_modules/react-tailwindcss-datepicker/dist/index.esm.js", "node_modules/keep-react/**/*.{js,jsx,ts,tsx}"],
   presets: [require("keep-react/preset")],
   theme: {
-    screens: {
-      'sm': {'min': '390px', 'max': '440px'},
-      'md': {'min': '440px', 'max': '780px'},
-      'lg': '780px',
-    },
     extend: {
       backgroundImage: {
         'hero': "url('/public/images/bg-image.png')",
